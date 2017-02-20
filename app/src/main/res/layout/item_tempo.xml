@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:text="n"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/n_tempo"
+        />
+
+    <TextView
+        android:text="data"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/data_tempo"
+    />
+
+        <TextView
+            android:id="@+id/tempo_tempo"
+            android:text="tempo"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+        />
+    </LinearLayout>
+</LinearLayout>
